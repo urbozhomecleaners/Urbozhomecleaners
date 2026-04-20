@@ -24,7 +24,7 @@ export default function App() {
           <button 
             onClick={() => {
                 window.open(
-      "https://wa.me/919876543210?text=Hello%20I%20need%20cleaning%20service",
+      "https://wa.me/9074588022?text=Hello%20I%20need%20cleaning%20service",
       "_blank"
           );
               }}
@@ -250,24 +250,23 @@ export default function App() {
             <div>
               <h3 className="text-xl mb-2">Address</h3>
               <p className="text-gray-600">
-                123 Clean Street
-                <br />
-                Suite 456
-                <br />
-                New York, NY 10001
+                No 347, Winnfield Garden,<br></br>3rd Cross,6th B Main road,<br></br>Sakthi Nagar, Bangalore,<br></br>Karnataka 560077, India
               </p>
             </div>
 
             <div>
               <h3 className="text-xl mb-2">Email</h3>
-              <p className="text-gray-600">
-                hello@urbozhome.com
-              </p>
+              <a href="mailto:urbozhomecleaners@gmail.com" className="text-gray-600">
+                urbozhomecleaners@gmail.com
+              </a>
             </div>
 
             <div>
               <h3 className="text-xl mb-2">Phone</h3>
-              <p className="text-gray-600">(555) 123-4567</p>
+              <a href="tel:+919074588022" className="text-gray-600">
+                
+                +91 9074588022
+              </a>
             </div>
           </div>
         </div>
@@ -312,14 +311,7 @@ export default function App() {
             </ul>
           </div>
 
-          <div>
-            <h4 className="text-lg mb-4">Contact Info</h4>
-            <ul className="space-y-2 text-gray-600">
-              <li>hello@urbozhome.com</li>
-              <li>(555) 123-4567</li>
-              <li>New York, NY</li>
-            </ul>
-          </div>
+
         </div>
 
         <div className="max-w-7xl mx-auto mt-12 pt-8 border-t border-gray-200 text-center text-gray-500">
