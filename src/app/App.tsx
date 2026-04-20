@@ -23,9 +23,10 @@ export default function App() {
           </p>
           <button 
             onClick={() => {
-                document
-                  .getElementById("contact")
-                  .scrollIntoView({ behavior: "smooth" });
+                window.open(
+      "https://wa.me/919876543210?text=Hello%20I%20need%20cleaning%20service",
+      "_blank"
+          );
               }}
             className="bg-white text-gray-900 px-10 py-4 rounded-sm hover:bg-gray-100 transition-colors">
             Get In Touch
