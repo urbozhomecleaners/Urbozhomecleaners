@@ -1,4 +1,4 @@
-import { ImageWithFallback } from './components/figma/ImageWithFallback';
+import { ImageWithFallback } from "./components/figma/ImageWithFallback";
 
 export default function App() {
   return (
@@ -16,12 +16,18 @@ export default function App() {
 
         <div className="relative z-10 text-center px-6 max-w-4xl">
           <h1 className="text-5xl md:text-7xl text-white mb-6">
-            We cleaned your house<br />so you can relax!
+            Relax. We’ll Take Care of the Cleaning.
           </h1>
           <p className="text-xl md:text-2xl text-white/90 mb-12">
             Enjoy your freshly cleaned home
           </p>
-          <button className="bg-white text-gray-900 px-10 py-4 rounded-sm hover:bg-gray-100 transition-colors">
+          <button 
+            onClick={() => {
+                document
+                  .getElementById("contact")
+                  .scrollIntoView({ behavior: "smooth" });
+              }}
+            className="bg-white text-gray-900 px-10 py-4 rounded-sm hover:bg-gray-100 transition-colors">
             Get In Touch
           </button>
         </div>
@@ -44,14 +50,26 @@ export default function App() {
 
           <div className="order-1 md:order-2">
             <h2 className="text-4xl md:text-5xl mb-8">
-              About Urboz Home<br />Cleaners
+              About Urboz Home
+              <br />
+              Cleaners
             </h2>
             <p className="text-lg text-gray-600 leading-relaxed mb-10">
-              We are a trusted home cleaning service dedicated to bringing comfort and peace to your living spaces.
-              Our team of professional cleaners uses eco-friendly products and meticulous attention to detail to ensure
-              your home is not just clean, but a sanctuary you can truly relax in.
+              We are a trusted home cleaning service dedicated
+              to bringing comfort and peace to your living
+              spaces. Our team of professional cleaners uses
+              eco-friendly products and meticulous attention to
+              detail to ensure your home is not just clean, but
+              a sanctuary you can truly relax in.
             </p>
-            <button className="border-2 border-gray-900 text-gray-900 px-10 py-4 rounded-sm hover:bg-gray-900 hover:text-white transition-colors">
+            <button
+              onClick={() => {
+                document
+                  .getElementById("contact")
+                  .scrollIntoView({ behavior: "smooth" });
+              }}
+              className="border-2 border-gray-900 text-gray-900 px-10 py-4 rounded-sm hover:bg-gray-900 hover:text-white transition-colors"
+            >
               Get In Touch
             </button>
           </div>
@@ -74,10 +92,14 @@ export default function App() {
                 className="w-full h-64 object-cover"
               />
               <div className="p-8">
-                <h3 className="text-2xl mb-4">Move-in / Move-out Cleaning</h3>
+                <h3 className="text-2xl mb-4">
+                  Move-in / Move-out Cleaning
+                </h3>
                 <p className="text-gray-600 leading-relaxed">
-                  Complete deep cleaning service for your new or departing home. We ensure every corner is spotless
-                  for a fresh start or a smooth handover.
+                  Complete deep cleaning service for your new or
+                  departing home. We ensure every corner is
+                  spotless for a fresh start or a smooth
+                  handover.
                 </p>
               </div>
             </div>
@@ -90,10 +112,13 @@ export default function App() {
                 className="w-full h-64 object-cover"
               />
               <div className="p-8">
-                <h3 className="text-2xl mb-4">Bathroom Cleaning</h3>
+                <h3 className="text-2xl mb-4">
+                  Bathroom Cleaning
+                </h3>
                 <p className="text-gray-600 leading-relaxed">
-                  Thorough sanitization and cleaning of all bathroom fixtures, tiles, and surfaces.
-                  We leave your bathroom sparkling and hygienic.
+                  Thorough sanitization and cleaning of all
+                  bathroom fixtures, tiles, and surfaces. We
+                  leave your bathroom sparkling and hygienic.
                 </p>
               </div>
             </div>
@@ -106,10 +131,13 @@ export default function App() {
                 className="w-full h-64 object-cover"
               />
               <div className="p-8">
-                <h3 className="text-2xl mb-4">Full House Cleaning</h3>
+                <h3 className="text-2xl mb-4">
+                  Full House Cleaning
+                </h3>
                 <p className="text-gray-600 leading-relaxed">
-                  Comprehensive cleaning of your entire home including all rooms, surfaces, and common areas.
-                  Customized to your specific needs.
+                  Comprehensive cleaning of your entire home
+                  including all rooms, surfaces, and common
+                  areas. Customized to your specific needs.
                 </p>
               </div>
             </div>
@@ -122,7 +150,11 @@ export default function App() {
         <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-16 items-center">
           <div>
             <h2 className="text-5xl md:text-6xl leading-tight">
-              Experience the joy<br />of a perfectly<br />cleaned house
+              Experience the joy
+              <br />
+              of a perfectly
+              <br />
+              cleaned house
             </h2>
           </div>
 
@@ -159,32 +191,37 @@ export default function App() {
           <div className="grid md:grid-cols-2 gap-12">
             <div className="bg-white p-10 rounded-sm shadow-sm">
               <p className="text-lg text-gray-700 leading-relaxed mb-6">
-                "Absolutely wonderful service! The team was professional, thorough, and left our home
-                spotless. We couldn't be happier with the results."
+                "Absolutely wonderful service! The team was
+                professional, thorough, and left our home
+                spotless. We couldn't be happier with the
+                results."
               </p>
               <p className="text-gray-900">— Sarah Mitchell</p>
             </div>
 
             <div className="bg-white p-10 rounded-sm shadow-sm">
               <p className="text-lg text-gray-700 leading-relaxed mb-6">
-                "Best cleaning service we've ever used. They pay attention to every detail and use
-                eco-friendly products. Highly recommend!"
+                "Best cleaning service we've ever used. They pay
+                attention to every detail and use eco-friendly
+                products. Highly recommend!"
               </p>
               <p className="text-gray-900">— James Robertson</p>
             </div>
 
             <div className="bg-white p-10 rounded-sm shadow-sm">
               <p className="text-lg text-gray-700 leading-relaxed mb-6">
-                "The move-out cleaning was exceptional. They made sure everything was perfect for
-                the new tenants. Very reliable and trustworthy."
+                "The move-out cleaning was exceptional. They
+                made sure everything was perfect for the new
+                tenants. Very reliable and trustworthy."
               </p>
               <p className="text-gray-900">— Emily Chen</p>
             </div>
 
             <div className="bg-white p-10 rounded-sm shadow-sm">
               <p className="text-lg text-gray-700 leading-relaxed mb-6">
-                "Professional, efficient, and incredibly thorough. Our home has never looked better.
-                We now use their services monthly!"
+                "Professional, efficient, and incredibly
+                thorough. Our home has never looked better. We
+                now use their services monthly!"
               </p>
               <p className="text-gray-900">— Michael Torres</p>
             </div>
@@ -193,15 +230,18 @@ export default function App() {
       </section>
 
       {/* Contact Section */}
-      <section className="py-32 px-6">
+      <section id="contact" className="py-32 px-6">
         <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-20">
           <div>
             <h2 className="text-4xl md:text-5xl mb-8">
-              Get in touch<br />with us
+              Get in touch
+              <br />
+              with us
             </h2>
             <p className="text-lg text-gray-600 leading-relaxed">
-              Ready to experience a perfectly clean home? Contact us today for a free quote
-              or to schedule your first cleaning service.
+              Ready to experience a perfectly clean home?
+              Contact us today for a free quote or to schedule
+              your first cleaning service.
             </p>
           </div>
 
@@ -209,15 +249,19 @@ export default function App() {
             <div>
               <h3 className="text-xl mb-2">Address</h3>
               <p className="text-gray-600">
-                123 Clean Street<br />
-                Suite 456<br />
+                123 Clean Street
+                <br />
+                Suite 456
+                <br />
                 New York, NY 10001
               </p>
             </div>
 
             <div>
               <h3 className="text-xl mb-2">Email</h3>
-              <p className="text-gray-600">hello@urbozhome.com</p>
+              <p className="text-gray-600">
+                hello@urbozhome.com
+              </p>
             </div>
 
             <div>
@@ -232,19 +276,38 @@ export default function App() {
       <footer className="border-t border-gray-200 py-12 px-6">
         <div className="max-w-7xl mx-auto grid md:grid-cols-3 gap-12">
           <div>
-            <h3 className="text-2xl mb-4">Urboz Home Cleaners</h3>
+            <h3 className="text-2xl mb-4">
+              Urboz Home Cleaners
+            </h3>
             <p className="text-gray-600">
-              Your trusted partner for a cleaner, healthier home.
+              Your trusted partner for a cleaner, healthier
+              home.
             </p>
           </div>
 
           <div>
             <h4 className="text-lg mb-4">Quick Links</h4>
             <ul className="space-y-2 text-gray-600">
-              <li><a href="#" className="hover:text-gray-900">About Us</a></li>
-              <li><a href="#" className="hover:text-gray-900">Services</a></li>
-              <li><a href="#" className="hover:text-gray-900">Testimonials</a></li>
-              <li><a href="#" className="hover:text-gray-900">Contact</a></li>
+              <li>
+                <a href="#" className="hover:text-gray-900">
+                  About Us
+                </a>
+              </li>
+              <li>
+                <a href="#" className="hover:text-gray-900">
+                  Services
+                </a>
+              </li>
+              <li>
+                <a href="#" className="hover:text-gray-900">
+                  Testimonials
+                </a>
+              </li>
+              <li>
+                <a href="#" className="hover:text-gray-900">
+                  Contact
+                </a>
+              </li>
             </ul>
           </div>
 
@@ -259,7 +322,10 @@ export default function App() {
         </div>
 
         <div className="max-w-7xl mx-auto mt-12 pt-8 border-t border-gray-200 text-center text-gray-500">
-          <p>&copy; 2026 Urboz Home Cleaners. All rights reserved.</p>
+          <p>
+            &copy; 2026 Urboz Home Cleaners. All rights
+            reserved.
+          </p>
         </div>
       </footer>
     </div>
