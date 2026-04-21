@@ -162,7 +162,7 @@ export default function App() {
             {/* Service Card 4 */}
             <div className="bg-white rounded-sm overflow-hidden shadow-sm hover:shadow-lg transition-shadow">
               <ImageWithFallback
-                src="https://images.unsplash.com/photo-1634672050277-16639332c727?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=800"
+                src="https://res.cloudinary.com/dwhuhylgj/image/upload/v1776756279/Gemini_Generated_Image_9i9evl9i9evl9i9e_xn2bd4.png"
                 alt="Kitchen deep cleaning"
                 className="w-full h-64 object-cover"
               />
@@ -366,8 +366,8 @@ export default function App() {
                 </a>
               </li>
               <li>
-                <a href="#contact" className="hover:text-gray-900">
-                  Contact
+                <a href="#" className="hover:text-gray-900">
+                  Subsidiaries
                 </a>
               </li>
             </ul>
