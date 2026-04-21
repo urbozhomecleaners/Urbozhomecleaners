@@ -197,7 +197,7 @@ export default function App() {
                 spotless. We couldn't be happier with the
                 results."
               </p>
-              <p className="text-gray-900">— Sarah Mitchell</p>
+              <p className="text-gray-900">— Selva Raj</p>
             </div>
 
             <div className="bg-white p-10 rounded-sm shadow-sm">
@@ -206,7 +206,7 @@ export default function App() {
                 attention to every detail and use eco-friendly
                 products. Highly recommend!"
               </p>
-              <p className="text-gray-900">— James Robertson</p>
+              <p className="text-gray-900">— Swahi Mishra</p>
             </div>
 
             <div className="bg-white p-10 rounded-sm shadow-sm">
@@ -215,7 +215,7 @@ export default function App() {
                 made sure everything was perfect for the new
                 tenants. Very reliable and trustworthy."
               </p>
-              <p className="text-gray-900">— Emily Chen</p>
+              <p className="text-gray-900">— Muhammad Ali</p>
             </div>
 
             <div className="bg-white p-10 rounded-sm shadow-sm">
@@ -224,7 +224,7 @@ export default function App() {
                 thorough. Our home has never looked better. We
                 now use their services monthly!"
               </p>
-              <p className="text-gray-900">— Michael Torres</p>
+              <p className="text-gray-900">— Vicky Mariyam Benjamin</p>
             </div>
           </div>
         </div>
