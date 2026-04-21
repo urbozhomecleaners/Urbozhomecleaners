@@ -3,11 +3,7 @@ import { ImageWithFallback } from "./components/figma/ImageWithFallback";
 
 export default function App() {
   useEffect(() => {
-    const link = document.querySelector("link[rel~='icon']") as HTMLLinkElement || document.createElement('link');
-    link.type = 'image/png';
-    link.rel = 'icon';
-    link.href = '/favicon.png';
-    document.head.appendChild(link);
+    
     document.title = "Urboz Home Cleaners";
   }, []);
 
