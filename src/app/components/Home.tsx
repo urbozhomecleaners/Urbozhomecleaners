@@ -35,11 +35,8 @@ export function Home() {
           </p>
           <button
             onClick={() => {
-                window.open(
-      "https://wa.me/9074588022?text=Hello%20I%20need%20cleaning%20service",
-      "_blank"
-          );
-              }}
+                window.location.href = "tel:+919074588022";
+            }}
             className="bg-white text-gray-900 px-10 py-4 rounded-sm hover:bg-gray-100 transition-colors">
             Contact Us
           </button>
@@ -83,12 +80,14 @@ export function Home() {
             </p>
             <button
               onClick={() => {
-                document
-                  .getElementById("contact")
-                  .scrollIntoView({ behavior: "smooth" });
+                window.open(
+                "https://wa.me/9074588022?text=Hello%20I%20need%20cleaning%20service","_blank"
+                );
               }}
-              className="border-2 border-gray-900 text-gray-900 px-10 py-4 rounded-sm hover:bg-gray-900 hover:text-white transition-colors"
+              
+              className="border-2 border-gray-900 text-gray-900 px-10 py-4 rounded-sm hover:bg-gray-900 hover:text-white transition-colors flex items-center gap-3"
             >
+              <img src="public/whatsapp.png" className="w-5 h-5" />
               Get In Touch
             </button>
           </div>
