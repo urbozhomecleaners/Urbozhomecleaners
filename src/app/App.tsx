@@ -152,6 +152,57 @@ export default function App() {
                 </p>
               </div>
             </div>
+
+            {/* Service Card 4 */}
+            <div className="bg-white rounded-sm overflow-hidden shadow-sm hover:shadow-lg transition-shadow">
+              <ImageWithFallback
+                src="https://images.unsplash.com/photo-1634672050277-16639332c727?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=800"
+                alt="Kitchen deep cleaning"
+                className="w-full h-64 object-cover"
+              />
+              <div className="p-8">
+                <h3 className="text-2xl mb-4">
+                  Kitchen Deep Cleaning
+                </h3>
+                <p className="text-gray-600 leading-relaxed">
+                  Specialized deep cleaning for your kitchen including appliances, countertops, cabinets, and floors. We make your kitchen shine.
+                </p>
+              </div>
+            </div>
+
+            {/* Service Card 5 */}
+            <div className="bg-white rounded-sm overflow-hidden shadow-sm hover:shadow-lg transition-shadow">
+              <ImageWithFallback
+                src="https://images.unsplash.com/photo-1775178120132-f0ff7fd5cb40?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=800"
+                alt="Window cleaning"
+                className="w-full h-64 object-cover"
+              />
+              <div className="p-8">
+                <h3 className="text-2xl mb-4">
+                  Window Cleaning
+                </h3>
+                <p className="text-gray-600 leading-relaxed">
+                  Professional window cleaning service for a streak-free shine. Interior and exterior cleaning for all types of windows.
+                </p>
+              </div>
+            </div>
+
+            {/* Service Card 6 */}
+            <div className="bg-white rounded-sm overflow-hidden shadow-sm hover:shadow-lg transition-shadow">
+              <ImageWithFallback
+                src="https://images.unsplash.com/photo-1505209487757-5114235191e5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=800"
+                alt="Office cleaning"
+                className="w-full h-64 object-cover"
+              />
+              <div className="p-8">
+                <h3 className="text-2xl mb-4">
+                  Office & Commercial Cleaning
+                </h3>
+                <p className="text-gray-600 leading-relaxed">
+                  Professional cleaning services for offices and commercial spaces. Flexible scheduling to minimize disruption to your business.
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </section>
