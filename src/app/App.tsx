@@ -43,8 +43,14 @@ export default function App() {
           </button>
         </div>
 
-        <button className="absolute top-8 right-8 bg-white/90 text-gray-900 px-6 py-3 rounded-sm hover:bg-white transition-colors">
-          View Properties
+        <button
+          onClick={() => {
+                document
+                  .getElementById("services")
+                  .scrollIntoView({ behavior: "smooth" });
+              }}
+          className="absolute top-8 right-8 bg-white/90 text-gray-900 px-6 py-3 rounded-sm hover:bg-white transition-colors">
+          Services
         </button>
       </section>
 
