@@ -289,17 +289,17 @@ export default function App() {
             <h4 className="text-lg mb-4">Quick Links</h4>
             <ul className="space-y-2 text-gray-600">
               <li>
-                <a href="about" className="hover:text-gray-900">
+                <a href="#about" className="hover:text-gray-900">
                   About Us
                 </a>
               </li>
               <li>
-                <a href="services" className="hover:text-gray-900">
+                <a href="#services" className="hover:text-gray-900">
                   Services
                 </a>
               </li>
               <li>
-                <a href="contact" className="hover:text-gray-900">
+                <a href="#contact" className="hover:text-gray-900">
                   Contact
                 </a>
               </li>
