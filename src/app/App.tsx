@@ -1,5 +1,6 @@
 import { useEffect } from "react";
 import { ImageWithFallback } from "./components/figma/ImageWithFallback";
+import { Instagram } from "lucide-react";
 
 export default function App() {
   useEffect(() => {
@@ -381,6 +382,17 @@ export default function App() {
             &copy; 2026 Urboz Home Cleaners. All rights
             reserved.
           </p>
+          <div className="mt-6">
+            <a
+              href="https://www.instagram.com/urbozhomecleaners"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center justify-center hover:text-gray-900 transition-colors"
+              aria-label="Visit our Instagram"
+            >
+              <Instagram size={20} />
+            </a>
+          </div>
         </div>
       </footer>
     </div>
