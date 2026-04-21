@@ -39,7 +39,7 @@ export default function App() {
       </section>
 
       {/* About Section */}
-      <section className="py-32 px-6 max-w-7xl mx-auto">
+      <section id="about" className="py-32 px-6 max-w-7xl mx-auto">
         <div className="grid md:grid-cols-2 gap-16 items-center">
           <div className="order-2 md:order-1">
             <ImageWithFallback
@@ -78,7 +78,7 @@ export default function App() {
       </section>
 
       {/* Services Section */}
-      <section className="py-32 px-6 bg-gray-50">
+      <section id="services" className="py-32 px-6 bg-gray-50">
         <div className="max-w-7xl mx-auto">
           <h2 className="text-4xl md:text-5xl text-center mb-20">
             Services & Strategies
@@ -289,22 +289,17 @@ export default function App() {
             <h4 className="text-lg mb-4">Quick Links</h4>
             <ul className="space-y-2 text-gray-600">
               <li>
-                <a href="#" className="hover:text-gray-900">
+                <a href="about" className="hover:text-gray-900">
                   About Us
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-gray-900">
+                <a href="services" className="hover:text-gray-900">
                   Services
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-gray-900">
-                  Testimonials
-                </a>
-              </li>
-              <li>
-                <a href="#" className="hover:text-gray-900">
+                <a href="contact" className="hover:text-gray-900">
                   Contact
                 </a>
               </li>
