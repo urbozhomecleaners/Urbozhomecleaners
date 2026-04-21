@@ -3,7 +3,11 @@ import { ImageWithFallback } from "./components/figma/ImageWithFallback";
 
 export default function App() {
   useEffect(() => {
-    
+    const link = document.querySelector("link[rel~='icon']") as HTMLLinkElement || document.createElement('link');
+    link.type = 'image/png';
+    link.rel = 'icon';
+    link.href = 'https://res.cloudinary.com/dwhuhylgj/image/upload/v1776753515/oie_png_pgyszy.png';
+    document.head.appendChild(link);
     document.title = "Urboz Home Cleaners";
   }, []);
 
@@ -21,7 +25,7 @@ export default function App() {
         </div>
 
         <div className="relative z-10 text-center px-6 max-w-4xl">
-          <h1 className="text-5xl md:text-7xl text-white mb-6">
+          <h1 className="text-5xl md:text-7xl text-white mb-6 font-bold">
             Relax. We’ll Take Care of the Cleaning.
           </h1>
           <p className="text-xl md:text-2xl text-white/90 mb-12">
