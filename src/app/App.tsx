@@ -53,7 +53,7 @@ export default function App() {
         <div className="grid md:grid-cols-2 gap-16 items-center">
           <div className="order-2 md:order-1">
             <ImageWithFallback
-              src="https://images.unsplash.com/photo-1630835016331-1a9b60581820?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080"
+              src="https://res.cloudinary.com/dwhuhylgj/image/upload/v1776753978/pexels-karola-g-4239142_wlp9m5.jpg"
               alt="Clean bedroom interior"
               className="w-full h-[500px] object-cover rounded-sm"
             />
@@ -91,14 +91,14 @@ export default function App() {
       <section id="services" className="py-32 px-6 bg-gray-50">
         <div className="max-w-7xl mx-auto">
           <h2 className="text-4xl md:text-5xl text-center mb-20">
-            Services & Strategies
+            Services
           </h2>
 
           <div className="grid md:grid-cols-3 gap-8">
             {/* Service Card 1 */}
             <div className="bg-white rounded-sm overflow-hidden shadow-sm hover:shadow-lg transition-shadow">
               <ImageWithFallback
-                src="https://images.unsplash.com/photo-1597665863042-47e00964d899?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=800"
+                src="https://res.cloudinary.com/dwhuhylgj/image/upload/v1776754106/pexels-liliana-drew-9462154_ld3fuu.jpg"
                 alt="Move-in cleaning"
                 className="w-full h-64 object-cover"
               />
