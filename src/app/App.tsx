@@ -124,7 +124,7 @@ export default function App() {
             {/* Service Card 2 */}
             <div className="bg-white rounded-sm overflow-hidden shadow-sm hover:shadow-lg transition-shadow">
               <ImageWithFallback
-                src="https://images.unsplash.com/photo-1758448018619-4cbe2250b9ad?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=800"
+                src="https://res.cloudinary.com/dwhuhylgj/image/upload/v1776755549/pexels-karola-g-4239067.jpg_phqisk.jpg"
                 alt="Bathroom cleaning"
                 className="w-full h-64 object-cover"
               />
@@ -143,7 +143,7 @@ export default function App() {
             {/* Service Card 3 */}
             <div className="bg-white rounded-sm overflow-hidden shadow-sm hover:shadow-lg transition-shadow">
               <ImageWithFallback
-                src="https://images.unsplash.com/photo-1774716925788-5c4fc543d688?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=800"
+                src="https://res.cloudinary.com/dwhuhylgj/image/upload/v1776755806/pexels-tima-miroshnichenko-6197108_wlrpuz.jpg"
                 alt="Full house cleaning"
                 className="w-full h-64 object-cover"
               />
