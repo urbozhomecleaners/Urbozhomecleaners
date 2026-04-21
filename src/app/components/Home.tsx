@@ -81,7 +81,7 @@ export function Home() {
             <button
               onClick={() => {
                 window.open(
-                "https://wa.me/9074588022?text=Hello%20I%20need%20cleaning%20service","_blank"
+                "https://wa.me/9074588022?text=Hello%2C%20I%20am%20interested%20in%20your%20home%20cleaning%20services.%20Please%20share%20details.","_blank"
                 );
               }}
               
