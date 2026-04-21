@@ -87,7 +87,7 @@ export function Home() {
               
               className="border-2 border-gray-900 text-gray-900 px-10 py-4 rounded-sm hover:bg-gray-900 hover:text-white transition-colors flex items-center gap-3"
             >
-              <img src="public/whatsapp.png" className="w-5 h-5" />
+              <img src="https://res.cloudinary.com/dwhuhylgj/image/upload/v1776761198/whatsapp_kxjbl9.png" className="w-5 h-5" />
               Get In Touch
             </button>
           </div>
