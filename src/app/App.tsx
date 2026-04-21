@@ -8,6 +8,7 @@ export default function App() {
     link.rel = 'icon';
     link.href = '/favicon.png';
     document.head.appendChild(link);
+    document.title = "Urboz Home Cleaners";
   }, []);
 
   return (
