@@ -17,7 +17,7 @@ export default function App() {
       <section className="relative h-screen flex items-center justify-center">
         <div className="absolute inset-0 z-0">
           <ImageWithFallback
-            src="https://images.unsplash.com/photo-1725042893312-5ec0dea9e369?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1920"
+            src="https://res.cloudinary.com/dwhuhylgj/image/upload/v1776754104/pexels-tima-miroshnichenko-6195122_tjdwxi.jpg"
             alt="Modern clean living room"
             className="w-full h-full object-cover"
           />
